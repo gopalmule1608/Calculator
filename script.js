@@ -8,7 +8,7 @@ btn.forEach(btn => {
 
         if (value === "Ac") {
             display.value = "";
-        } else if (value === "Del") {
+        } else if (value === "←") {
             display.value = String(display.value).slice(0, -1);
         } else if (value === "=") {
             try {
